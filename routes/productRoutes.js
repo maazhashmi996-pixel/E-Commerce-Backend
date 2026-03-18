@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Product = require('../models/Product');
-const upload = require('../config/cloudinary'); // Cloudinary config file
+const upload = require('../config/Cloudinary'); // Cloudinary config file
 
 // --- 1. ADD NEW PRODUCT (Admin Only) ---
 // Ismein 'images' ka array 5 pics tak accept hoga
